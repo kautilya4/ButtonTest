@@ -27,6 +27,8 @@ public class MainActivity extends AppCompatActivity {
 
     public int solution(String S) {
         // write your code in Java SE 8
+        // This is the main activity
+        
         int validNumberCount = 0;
         for(int i=0; i<S.length();i++){
             for(int j= i+1; j<=S.length();j++){
